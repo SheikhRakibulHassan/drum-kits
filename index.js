@@ -6,14 +6,13 @@ kits.forEach((kit)=>{
     const btnEl = document.createElement("button");
     btnEl.classList.add("btn");
     btnEl.innerText = kit;
-    btnEl.style.backgroundImage = "url(img/"+ kit + ".jpg)";
+    btnEl.style.backgroundImage = "url("+ kit + ".jpg)";
     containerEl.appendChild(btnEl);
     const audioEl = document.createElement("audio");
-    audioEl.src = "mp3/" + kit + ".mp3";
+    audioEl.src = kit + ".mp3";
     containerEl.appendChild(audioEl);
     btnEl.addEventListener("click", ()=> {
         audioEl.play();
-
     });
 
     window.addEventListener("keydown", (event)=>{
