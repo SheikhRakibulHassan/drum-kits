@@ -6,7 +6,7 @@ body{
     height: 100vh;
     justify-content: center;
     background-color: pink;
-    background-image: url(img/Music.jpg);
+    background-image: url(Music.jpg);
     background-size: cover;
     background-position: center top;
 
@@ -37,7 +37,7 @@ h1{
     min-height: 200px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,.3);
-    background-image: url("img/tom.jpg");
+    background-image: url("tom.jpg");
     background-size: cover;
     color: red;
     font-size: 50px;
